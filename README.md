@@ -1,70 +1,45 @@
-# Getting Started with Create React App
+# HOSPITAL MANAGEMENT SYSTEM - FE
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<br>
 
-## Available Scripts
+## Tech stack
 
-In the project directory, you can run:
+### Frontend [(repo is here)](https://github.com/prudencadaffa/finalproject-hms-fe)
 
-### `npm start`
+1. [ReactJS](https://reactjs.org/) (React Framework)
+2. [Ant Design](https://ant.design/) (CSS Framework)
+3. [Redux](https://redux.js.org/) (State Management)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Backend [(repo is here)](https://github.com/prudencadaffa/finalproject-hms-be)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+1. [Echo](https://echo.labstack.com/) (Golang framework)
+2. [Mysql](https://www.mysql.com/) (Database)
+3. [GORM](https://gorm.io/) (ORM)
+4. [JWT](https://jwt.io/) (Authentication)
+5. [Docker](https://www.docker.com/) (Container)
+6. [AWS EC2](https://aws.amazon.com/ec2/) (Cloud computing service)
+7. [Github action](https://github.com/features/actions) (CI/CD pipeline)
 
-### `npm test`
+<br>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Documentation and References
 
-### `npm run build`
+- ERD: [Here](https://app.diagrams.net/#G1Im7dtECUqwuw3eY3a06-I8kfT5nb__er)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Architecture:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+  - [Clean architecture general concept](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)
+  - [Golang clean architecture implementation by **bxcodec**](https://github.com/bxcodec/go-clean-arch)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Endpoints:
 
-### `npm run eject`
+  - [Notion version](https://dented-neighbor-55b.notion.site/Endpoints-a872a8843a914264998422e1dccdd684)
+  - [Swagger version](https://app.swaggerhub.com/apis/prudenca08/hms/1.0.0/)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+<br>
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Contributors
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- [Arya Deva Rajendra](https://github.com/raj847)
+- [Sarah Omega Yulie Simorangkir](https://github.com/sarahsimorangkir)
+- [Prudenca Ahmad Daffa Kurnia](https://github.com/prudencadaffa)
