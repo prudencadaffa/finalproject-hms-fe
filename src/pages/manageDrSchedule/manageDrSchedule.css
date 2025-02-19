@@ -1,0 +1,61 @@
+.drscheduleList{
+    flex: 4;
+}
+.drscheduleEdit{
+    cursor: pointer;
+    margin-right: 20px;
+    color: rgb(42, 124, 218);
+}
+.drscheduleDelete{
+    cursor: pointer;
+    color: crimson;
+}
+.drscheduleListTitleContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.doctorscheduleAddButton{
+    margin-top: 10px;
+    border-radius: 5px;
+    border: none;
+    width: 100px;
+    padding: 7px 7px;
+    cursor: pointer;
+    background-color: #8282F3;
+    color: white;
+    font-weight: 400;  
+}
+.doctorscheduleAdd{
+    display: flex;
+    padding: 20px 5px;
+    right: 0;
+    margin-left: 60em;
+}
+.doctorscheduleAddButton{
+    padding: 5px 10px;
+    cursor: pointer;
+    user-select: none;
+}
+.doctorscheduleAddButton:hover{
+    background: #7e7eca;
+}
+.manage-modal{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 100;
+    transform: translate(-50%, -50%);
+    background: #FFFFFF;
+    max-width: 400px;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    width: 100%;
+    border-radius: 5px;
+}
+.manage-modal.hide{
+    width: 0px;
+    height: 0px;
+    overflow: hidden;
+}
+

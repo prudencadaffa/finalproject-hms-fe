@@ -1,0 +1,98 @@
+.patient{
+    flex: 4;
+    padding: 20px;
+}
+.patientTitleContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.patientAddButton{
+    width: 80px;
+    border: none;
+    padding: 5px;
+    background-color: #8282F3 ;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+
+}
+.patientContainer{
+    display: flex;
+    margin-top: 20px;
+}
+.patientShow{
+    flex: 1;
+    padding: 20px;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    padding: 20px;
+}
+.patientUpdate{
+    flex: 2;
+    padding: 20px;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    padding: 20px;
+    margin-left: 20px;
+}
+.patientShowTitle{
+    font-size: 25px;
+    font-weight: 600;
+    color: rgb(175, 170, 170)
+}
+.patientShowDetail{
+    margin-top: 20px;
+}
+.patientShowInfo{
+    display: flex;
+    align-items: center;
+    margin: 20px 0px;
+    color: #444;
+}
+.patientShowIcon{
+    font-size: 18px !important;
+}
+.patientShowInfoTitle{
+    margin-left: 10px;
+}
+.patientUpdateForm{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.patientUpdateTitle{
+    font-size: 24px;
+    font-weight: 60;
+}
+.patientUpdateItem{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.patientUpdateItem >label{
+    margin-bottom: 5px;
+    font-size: 14px;
+    
+}
+.patientUpdateInput{
+    border:none;
+    width: 250px;
+    height: 30px;
+    border-bottom: 1px solid gray;
+}
+.patientUpdateButton{
+    margin-top: 50px;
+    border-radius: 5px;
+    border: none;
+    width: 250px;
+    padding: 5px;
+    cursor: pointer;
+    background-color: #8282F3;
+    color: white;
+    font-weight: 400;
+   
+}
+
+
+

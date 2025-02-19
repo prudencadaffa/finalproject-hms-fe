@@ -1,0 +1,44 @@
+.newOutpatient{
+    flex: 4;
+    margin-left: 20px;
+}
+.newOutpatientForm{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.newOutpatientItem{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+.newOutpatientItem > label{
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    color: gray;
+}
+.newOutpatientItem >label>input{
+    height: 20px;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.newOutpatientGender > label {
+    margin-right: 10px;
+    font-size: 18px;
+} 
+.newOutpatientButton{
+    margin-top: 40px;
+    border-radius: 10px;
+    border: none;
+    width: 100px;
+    padding: 7px 10px;
+    cursor: pointer;
+    background-color: #8282F3;
+    color: white;
+    font-weight: 400;
+}

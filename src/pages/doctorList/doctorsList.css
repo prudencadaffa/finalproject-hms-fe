@@ -1,0 +1,38 @@
+.doctorsList {
+  flex: 4;
+}
+.doctorsEdit {
+  cursor: pointer;
+  margin-right: 20px;
+  color: rgb(42, 124, 218);
+}
+.doctorsDelete {
+  cursor: pointer;
+  color: crimson;
+}
+.doctorListTitleContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.newDoctorButton {
+  margin-top: 60px;
+  border-radius: 10px;
+  border: none;
+  width: 100px;
+  padding: 7px 10px;
+  cursor: pointer;
+  background-color: #8282f3;
+  color: white;
+  font-weight: 400;
+  
+}
+.doctorAdd {
+  display: flex;
+  padding: 20px 5px;
+  margin-left: 62em;
+ 
+}
+.ListTitle{
+  margin: 30px 20px;
+}

@@ -1,0 +1,98 @@
+.outpatient{
+    flex: 4;
+    padding: 20px;
+}
+.outpatientTitleContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.outpatientAddButton{
+    width: 80px;
+    border: none;
+    padding: 5px;
+    background-color: #8282F3 ;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+
+}
+.outpatientContainer{
+    display: flex;
+    margin-top: 20px;
+}
+.outpatientShow{
+    flex: 1;
+    padding: 20px;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    padding: 20px;
+}
+.outpatientUpdate{
+    flex: 2;
+    padding: 20px;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    padding: 20px;
+    margin-left: 20px;
+}
+.outpatientShowTitle{
+    font-size: 25px;
+    font-weight: 600;
+    color: rgb(175, 170, 170)
+}
+.outpatientShowDetail{
+    margin-top: 20px;
+}
+.outpatientShowInfo{
+    display: flex;
+    align-items: center;
+    margin: 20px 0px;
+    color: #444;
+}
+.outpatientShowIcon{
+    font-size: 18px !important;
+}
+.outpatientShowInfoTitle{
+    margin-left: 10px;
+}
+.outpatientUpdateForm{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.outpatientUpdateTitle{
+    font-size: 24px;
+    font-weight: 60;
+}
+.outpatientUpdateItem{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.outpatientUpdateItem >label{
+    margin-bottom: 5px;
+    font-size: 14px;
+    
+}
+.outpatientUpdateInput{
+    border:none;
+    width: 250px;
+    height: 30px;
+    border-bottom: 1px solid gray;
+}
+.outpatientUpdateButton{
+    margin-top: 50px;
+    border-radius: 5px;
+    border: none;
+    width: 250px;
+    padding: 5px;
+    cursor: pointer;
+    background-color: #8282F3;
+    color: white;
+    font-weight: 400;
+   
+}
+
+
+

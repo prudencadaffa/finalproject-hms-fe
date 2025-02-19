@@ -1,0 +1,50 @@
+.newPatient{
+    flex: 4;
+    margin-left: 20px;
+}
+.newPatientForm{
+    display: flex;
+    flex-wrap:wrap;
+
+}
+.newPatientItem{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+.newPatientTitle{
+    margin-top: 25px;
+    margin-bottom: 40px;
+    font-size: 35px;
+}
+.newPatientItem > label{
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    color: gray;
+}
+.newPatientItem >label>input{
+    height: 20px;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.newPatientGender > label {
+    margin-right: 10px;
+    font-size: 18px;
+} 
+.newPatientButton{
+    margin-top: 50px;
+    margin-right: 900px;
+    border-radius: 10px;
+    border: none;
+    width: 100px;
+    padding: 7px 10px;
+    cursor: pointer;
+    background-color: #8282F3;
+    color: white;
+    font-weight: 400;
+}

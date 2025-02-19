@@ -1,0 +1,62 @@
+.newDoctor {
+  flex: 4;
+  margin-left: 20px;
+}
+.newDoctorForm {
+  display: flex;
+  flex-wrap: wrap;
+}
+.newDoctorItem {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  margin-right: 20px;
+}
+.newDoctorTitle {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 35px;
+}
+.newDoctorItem > label {
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  color: gray;
+}
+.newDoctorItem > label > input {
+  height: 20px;
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+.newDoctorGender > label {
+  margin-right: 10px;
+  font-size: 18px;
+}
+.newDoctorButton {
+  margin-bottom: 30px;
+  margin-top: 30px;
+  margin-right: 900px;
+  border-radius: 10px;
+  border: none;
+  width: 100px;
+  padding: 7px 10px;
+  cursor: pointer;
+  background-color: #8282f3;
+  color: white;
+  font-weight: 400;
+}
+.btnPass {
+  width: 40px;
+  height: 25px;
+  font-size: 12px;
+  margin-top: 5px;
+  padding-top: 3px;
+  padding-left: 5px;
+  border: 1px solid rgb(206, 201, 201);
+  background-color: rgb(226, 229, 231);
+  border-radius: 5px;
+  cursor: pointer;
+}

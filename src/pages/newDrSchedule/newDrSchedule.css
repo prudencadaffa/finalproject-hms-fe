@@ -1,0 +1,45 @@
+.manage-form{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.manage-form > form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+}
+.manage-form > form > .manage-form-header{
+    text-align: center;
+    width:60%;
+}
+.manage-form > form > .manage-form-group{
+    width: 60%;
+    text-align: center;
+    border-bottom: 1px solid #8c888d;
+    padding: 5px 10px;
+}
+.manage-form > form > .manage-form-group > input{
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    background: none;
+    margin-top: 10px;
+}
+.manage-form > form > button{
+    background: #8282F3;
+    border-radius: 10px;
+    height: 35px;
+    width: 100px;
+    border: none;
+    outline: none;
+    color: #FFFFFF;
+    font-weight: bold;
+    padding: 0px 10px;
+    margin-top: 10px;
+}
+

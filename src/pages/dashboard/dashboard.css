@@ -1,0 +1,8 @@
+.dashboard {
+  flex: 4;
+}
+
+.dashWidget {
+  display: flex;
+  margin: 20px;
+}

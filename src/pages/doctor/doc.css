@@ -1,0 +1,103 @@
+.doctor {
+  flex: 4;
+  padding: 20px;
+}
+.doctorTitleContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.doctorAddButton {
+  width: 80px;
+  border: none;
+  padding: 5px;
+  background-color: #8282f3;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+}
+.doctorContainer {
+  display: flex;
+  margin-top: 20px;
+}
+.doctorShow {
+  flex: 1;
+  padding: 20px;
+  -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  padding: 20px;
+}
+.doctorUpdate {
+  flex: 2;
+  padding: 20px;
+  -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  padding: 20px;
+  margin-left: 20px;
+}
+.doctorShowTitle {
+  font-size: 25px;
+  font-weight: 600;
+  color: rgb(175, 170, 170);
+}
+.doctorShowDetail {
+  margin-top: 20px;
+}
+.doctorShowInfo {
+  display: flex;
+  align-items: center;
+  margin: 20px 0px;
+  color: #444;
+}
+.doctorShowIcon {
+  font-size: 18px !important;
+}
+.doctorShowInfoTitle {
+  margin-left: 10px;
+}
+.doctorUpdateForm {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.doctorUpdateTitle {
+  font-size: 24px;
+  font-weight: 60;
+}
+.doctorUpdateItem {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+.doctorUpdateItem > label {
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+.doctorUpdateInput {
+  border: none;
+  width: 250px;
+  height: 30px;
+  border-bottom: 1px solid gray;
+}
+.doctorUpdateButton {
+  margin-top: 30px;
+  border-radius: 5px;
+  border: none;
+  width: 250px;
+  padding: 5px;
+  cursor: pointer;
+  background-color: #8282f3;
+  color: white;
+  font-weight: 400;
+}
+.passwordChangeButton{
+  border-radius: 5px;
+  border: none;
+  width: 250px;
+  padding: 5px;
+  cursor: pointer;
+  background-color: #1e9df1;
+  color: white;
+  font-weight: 400;
+  float: right;
+}
